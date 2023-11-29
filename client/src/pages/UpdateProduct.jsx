@@ -56,7 +56,7 @@ export default function UpdateProduct() {
   };
 
   return (
-    <form className="my-5 max-w-md mx-auto flex flex-col gap-3">
+    <form className="my-5 max-w-xl mx-auto flex flex-col gap-3">
       <label className="flex flex-row gap-3 items-center whitespace-nowrap">
         <p className="">Name :</p>
         <input

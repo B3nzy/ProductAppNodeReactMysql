@@ -28,7 +28,7 @@ export default function Home() {
   };
 
   return (
-    <div className="mx-auto max-w-2xl my-10">
+    <div className="mx-auto max-w-3xl my-10">
       <table>
         <tr>
           <th>id</th>
@@ -50,7 +50,7 @@ export default function Home() {
                 <th>{product.price}</th>
                 <th>
                   <button
-                    className="border border-yellow-400 text-yellow-600 p-2 rounded-lg uppercase"
+                    className="border border-yellow-400 text-yellow-600 p-2 rounded-lg uppercase hover:bg-yellow-600 hover:text-white"
                     type="button"
                     onClick={() => handleEdit(product.id)}
                   >
@@ -59,7 +59,7 @@ export default function Home() {
                 </th>
                 <th>
                   <button
-                    className="border border-red-400 text-red-600 p-2 rounded-lg uppercase"
+                    className="border border-red-400 text-red-600 p-2 rounded-lg uppercase hover:bg-red-600 hover:text-white"
                     type="button"
                     onClick={() => handleDelete(product.id)}
                   >
